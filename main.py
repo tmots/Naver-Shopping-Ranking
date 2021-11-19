@@ -65,7 +65,7 @@ class MyForm(QMainWindow):
         editer = QtForm()
         self.setCentralWidget(editer)
         self.setGeometry(30, 70, 400, 1500)
-        self.setWindowTitle('어제 네이버 광고 금액')
+        self.setWindowTitle('네이버 쇼핑 키워드 검색 순위')
         self.show()
 
 class QtForm(QWidget):
